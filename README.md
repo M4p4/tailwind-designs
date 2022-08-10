@@ -1,3 +1,3 @@
 # tailwind-designs
 
-### Project 1 - Email Subscribe
+### Project 1 - Email Subscribe Card
