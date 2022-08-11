@@ -14,7 +14,7 @@
 
 ### Project 4 - Image Gallery
 
-![Image Gallery](https://github.com/M4p4/tailwind-designs/blob/main/preview-images/image-gallery?raw=true)
+![Image Gallery](https://github.com/M4p4/tailwind-designs/blob/main/preview-images/image-gallery.png?raw=true)
 
 ### Project 5 - Login Modal
 
