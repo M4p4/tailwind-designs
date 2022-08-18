@@ -1,5 +1,13 @@
 # tailwind-designs
 
+## Site Design Projects
+
+### Project 1 - Clipboard Site Design
+
+![Clipboard Site](https://github.com/M4p4/tailwind-designs/blob/main/preview-images/email-subscribe.png?raw=true)
+
+## Components Design Projects
+
 ### Project 1 - Email Subscribe Card
 
 ![Email Subscribe Card](https://github.com/M4p4/tailwind-designs/blob/main/preview-images/email-subscribe.png?raw=true)
