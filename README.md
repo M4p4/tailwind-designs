@@ -4,7 +4,9 @@
 
 ### Project 1 - Clipboard Site Design
 
-![Clipboard Site](https://github.com/M4p4/tailwind-designs/blob/main/preview-images/email-subscribe.png?raw=true)
+![Clipboard Site](https://github.com/M4p4/tailwind-designs/blob/main/preview-images/clipboard.png?raw=true)
+
+**Note:** Screenshot only shows a small part of the page.
 
 ## Components Design Projects
 
