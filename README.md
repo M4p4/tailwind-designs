@@ -2,7 +2,11 @@
 
 ## Site Design Projects
 
-### Project 1 - Clipboard Site Design
+### Project 1 - Shorter Service Site Design
+
+![Clipboard Site](https://github.com/M4p4/tailwind-designs/blob/main/preview-images/shorter.png?raw=true)
+
+### Project 2 - Clipboard Site Design
 
 ![Clipboard Site](https://github.com/M4p4/tailwind-designs/blob/main/preview-images/clipboard.png?raw=true)
 
