@@ -16,6 +16,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/script.js" defer></script>
     <title>Url Shorter</title>
   </head>
   <body>
@@ -85,6 +86,91 @@
         <!-- Image -->
         <div class="mx-auto mb-24 md:w-180 lg:mb-0 lg:w-1/2">
           <img src="images/illustration-working.svg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Shorten Section -->
+    <section id="shorten" class="relative bg-gray-100">
+      <!-- Shorten Container -->
+      <div class="mx-auto max-w-4xl p-6 space-y-6">
+        <!-- Form -->
+        <form
+          id="link-form"
+          class="relative flex flex-col w-full p-10 -mt-20 space-y-4 bg-darkViolet rounded-lg md:flex-row md:space-y-0 md:space-x-3"
+        >
+          <input
+            id="link-input"
+            type="text"
+            placeholder="Shorten a link here"
+            class="flex-1 p-3 rounded-lg border-2 placeholder-yellow-500 focus:outline-none"
+          />
+          <button
+            class="text-white bg-cyan px-10 py-3 rounded-lg focus:outline-none hover:bg-cyanLight md:py-2"
+          >
+            Shorten It!
+          </button>
+
+          <!-- Error Message -->
+          <div
+            id="error-msg"
+            class="absolute left-10 md:left-7 bottom-3 text-red text-sm italic"
+          ></div>
+        </form>
+
+        <!-- Link #1 -->
+        <div
+          class="flex flex-col justify-between items-center w-full p-6 bg-white rounded-lg md:flex-row"
+        >
+          <p class="font-bold text-center text-veryDarkViolet md:text-left">
+            https://example.com
+          </p>
+          <div
+            class="flex flex-col items-center justify-end space-x-4 flex-1 space-y-2 md:flex-row md:space-y-0"
+          >
+            <div class="font-bold text-cyan">https://x.short/a4AxZ</div>
+            <button
+              class="p-2 px-8 bg-cyan text-white rounded-lg hover:opacity-70 focus:outline-none"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+        <!-- Link #2 -->
+        <div
+          class="flex flex-col justify-between items-center w-full p-6 bg-white rounded-lg md:flex-row"
+        >
+          <p class="font-bold text-center text-veryDarkViolet md:text-left">
+            https://example.io
+          </p>
+          <div
+            class="flex flex-col items-center justify-end space-x-4 flex-1 space-y-2 md:flex-row md:space-y-0"
+          >
+            <div class="font-bold text-cyan">https://x.short/bad7a</div>
+            <button
+              class="p-2 px-8 bg-darkViolet text-white rounded-lg hover:opacity-70 focus:outline-none"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+        <!-- Link #3 -->
+        <div
+          class="flex flex-col justify-between items-center w-full p-6 bg-white rounded-lg md:flex-row"
+        >
+          <p class="font-bold text-center text-veryDarkViolet md:text-left">
+            https://test.com
+          </p>
+          <div
+            class="flex flex-col items-center justify-end space-x-4 flex-1 space-y-2 md:flex-row md:space-y-0"
+          >
+            <div class="font-bold text-cyan">https://x.short/xna7s</div>
+            <button
+              class="p-2 px-8 bg-cyan text-white rounded-lg hover:opacity-70 focus:outline-none"
+            >
+              Copy
+            </button>
+          </div>
         </div>
       </div>
     </section>
