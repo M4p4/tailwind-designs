@@ -1,6 +1,8 @@
 const input = document.getElementById('link-input');
 const errorMsg = document.getElementById('error-msg');
 const linkForm = document.getElementById('link-form');
+const btn = document.getElementById('menu-btn');
+const menu = document.getElementById('menu');
 
 const validURL = (str) => {
   var pattern = new RegExp(
@@ -13,6 +15,13 @@ const validURL = (str) => {
     'i'
   );
   return !!pattern.test(str);
+};
+
+const navToggle = (e) => {
+  e.preventDefault();
+  btn.classList.toggle('open');
+  menu.classList.toggle('flex');
+  menu.classList.toggle('hidden');
 };
 
 const formSubmit = (e) => {
@@ -31,3 +40,4 @@ const formSubmit = (e) => {
 };
 
 linkForm.addEventListener('submit', formSubmit);
+btn.addEventListener('click', navToggle);
