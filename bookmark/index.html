@@ -14,7 +14,80 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>Bookmark Manager</title>
   </head>
-  <body>
-    Hello
+  <body class="overflow-x-hidden">
+    <nav class="container relative mx-auto p-6">
+      <!-- Flex Container -->
+      <div class="flex items-center justify-between space-x-20 my-6">
+        <!-- Logo -->
+        <div class="z-30">
+          <img src="images/logo-bookmark.svg" alt="Bookmark Logo" id="logo" />
+        </div>
+
+        <!-- Menu Items -->
+        <div
+          class="hidden items-center space-x-10 uppercase text-grayishBlue md:flex"
+        >
+          <a href="#" class="tracking-widest hover:text-softRed">Features</a>
+          <a href="#" class="tracking-widest hover:text-softRed">Download</a>
+          <a href="#" class="tracking-widest hover:text-softRed">FAQ</a>
+
+          <a
+            href="#"
+            class="text-white bg-softRed px-8 py-2 border-2 border-softRed rounded-lg shadow-md hover:text-softRed hover:bg-white"
+            >Login</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <!-- Container for Image and Content -->
+      <div
+        class="container flex flex-col-reverse mx-auto p-6 lg:flex-row lg:mb-0"
+      >
+        <!-- Content -->
+        <div class="flex flex-col space-y-10 lg:mt-16 lg:w-1/2">
+          <h1
+            class="text-3xl font-semibold text-center lg:text-6xl lg:text-left"
+          >
+            A Simple Bookmark Manager
+          </h1>
+          <p
+            class="max-w-md mx-auto text-center text-lg text-gray-400 lg:text-2xl lg:text-left lg:mt-0 lg:mx-0"
+          >
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et at
+            molestias eligendi natus fugit ut nesciunt, nostrum nisi animi
+            officia?
+          </p>
+
+          <!-- Buttons Container -->
+          <div
+            class="flex items-center justify-center w-full space-x-4 lg:justify-start"
+          >
+            <a
+              href="#"
+              class="p-4 text-white bg-softBlue text-sm font-semibold rounded shadow-md border-2 capitalize border-softBlue hover:bg-white md:text-base hover:text-softBlue"
+              >Get it on Chrome</a
+            >
+            <a
+              href="#"
+              class="p-4 text-black bg-gray-300 text-sm font-semibold rounded shadow-md border-2 capitalize border-gray-300 hover:bg-white md:text-base hover:text-gray-600"
+              >Get it on Firefox</a
+            >
+          </div>
+        </div>
+
+        <!-- Image -->
+        <div class="relative mx-auto lg:mx-0 lg:mb-0 lg:w-1/2">
+          <div class="bg-hero"></div>
+          <img
+            class="relative z-10 lg:top-24 xl:top-0 overflow-x-visible"
+            src="images/illustration-hero.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
   </body>
 </html>
